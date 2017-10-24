@@ -12,7 +12,7 @@ Time spent: 3 hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.6
   - [ ] GIF Walkthrough:
-    [URL=/gif/-Y-_MQn][IMG]https://i.makeagif.com/media/10-24-2017/Y-_MQn.gif[/IMG][/URL]
+    https://i.makeagif.com/media/10-24-2017/Y-_MQn.gif
   - [ ] Steps to recreate: 1) Create New Comment
                           2) Add <script>alert("XSS")</script> as a comment, alert will show up after refresh.
   - [ ] Affected source code:
@@ -22,7 +22,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: [URL=/gif/-YIQmhD][IMG]https://i.makeagif.com/media/10-24-2017/YIQmhD.gif[/IMG][/URL]
+  - [ ] GIF Walkthrough: https://i.makeagif.com/media/10-24-2017/YIQmhD.gif
   - [ ] Steps to recreate: In the comment field leave over 64 KB worth of text to cause page to change.
   - [ ] Affected source code:
     - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622)
@@ -31,7 +31,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: [URL=/gif/-LqZJ_S][IMG]https://i.makeagif.com/media/10-24-2017/LqZJ_S.gif[/IMG][/URL]
+  - [ ] GIF Walkthrough: https://i.makeagif.com/media/10-24-2017/LqZJ_S.gif
   - [ ] Steps to recreate: Add https://youtube[.]com/watch?v=123<svg onload=alert(1)>
                           as a post.
                           Alert will show up after the page refreshes.
